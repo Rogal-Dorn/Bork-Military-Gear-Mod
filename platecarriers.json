@@ -2,8 +2,14 @@
    {
     "id": "cryejpc",
     "type": "ARMOR",
-    "name": "Crye JPC",
-    "description": "The JUMPABLE PLATE CARRIER™ (JPC) is a lightweight and minimal vest designed for maximum mobility, weight savings, and packability. At just over one pound for the entire carrier, the JPC™ offers a variety of configuration options to suit an operator’s needs in terms of load carriage and comfort. It features our SKELETAL™ CUMMERBUND system with our patented integrated attachment system that allows pouches to be mounted on both the inside and outside of the cummerbund, shedding unnecessary weight and bulk while improving ventilation. It also features integrated admin and magazine pouches on the front of the carrier. Sizes are based on the size of the ballistic plate. For example, a large plate will fit best in a large JPC™. Patented, see www.lwpatents.com. Made in the US from US materials.",
+    "name": "Crye JPC (empty)",
+    "description": "The JUMPABLE PLATE CARRIER™ (JPC) is a lightweight and minimal vest designed for maximum mobility, 
+    weight savings, and packability. At just over one pound for the entire carrier, the JPC™ offers a variety of configuration 
+    options to suit an operator’s needs in terms of load carriage and comfort. It features our SKELETAL™ CUMMERBUND system with 
+    our patented integrated attachment system that allows pouches to be mounted on both the inside and outside of the cummerbund, 
+    shedding unnecessary weight and bulk while improving ventilation. It also features integrated admin and magazine pouches on 
+    the front of the carrier. Sizes are based on the size of the ballistic plate. For example, a large plate will fit best in a 
+    large JPC™. Patented, see www.lwpatents.com. Made in the US from US materials.",
     "weight": "544 g",
     "volume": "1000 ml",
     "looks_like": "vest",
