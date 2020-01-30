@@ -1,0 +1,11 @@
+[
+  {
+    "type": "MOD_INFO",
+    "ident": "Borkmilgear",
+    "name": "Bork Military Gear Mod",
+    "authors": [ "Rogal Dorn" ],
+    "description": "Adds real military clothing, plate carriers, chest rigs, magazines, and other equipment",
+    "category": "items",
+    "dependencies": [ "dda" ]
+  }
+]
