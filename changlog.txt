@@ -2,3 +2,5 @@
   Added Crye JPC (empty)
 .2
   Added Eagle Industries Rhodesian Recon Vest (empty)
+.3
+  Added Mayflower LPAC (empty) 
