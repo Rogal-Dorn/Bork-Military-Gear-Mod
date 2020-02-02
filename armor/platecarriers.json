@@ -3,7 +3,7 @@
     "id": "cryejpc",
     "type": "ARMOR",
     "name": "Crye JPC (empty)",
-    "description": "The JUMPABLE PLATE CARRIER™ (JPC) is a lightweight and minimal vest designed for maximum mobility, weight savings, and packability. This one has no plates.",
+    "description": "The JUMPABLE PLATE CARRIER™ (JPC) is a lightweight and minimal vest designed for maximum mobility, weight savings, and packability. It has a front and back plate pouch. This one has no plates.",
     "weight": "544 g",
     "volume": "1000 ml",
     "looks_like": "vest",
@@ -27,14 +27,45 @@
       "draw_cost": 60,
       "flags": [ "MAG_COMPACT" ]
     },
-    "flags": [ "WATER_FRIENDLY", "WAIST" ]
+    "flags": [ "WATER_FRIENDLY", "OUTER" ]
    },
-
+   
+   {
+    "id": "cryejpc_esapi",
+    "type": "ARMOR",
+    "name": "Crye JPC (ESAPI)",
+    "description": "The JUMPABLE PLATE CARRIER™ (JPC) is a lightweight and minimal vest designed for maximum mobility, weight savings, and packability. It has a front and back plate pouch. This one has ESAPI plates.",
+    "weight": "5544 g",
+    "volume": "1000 ml",
+    "looks_like": "vest",
+    "price": 12600,
+    "price_postapoc": 50000,
+    "rigid": false,
+    "material": ["nylon", "ceramic" ],
+    "symbol": "[",
+    "color": "dark_gray",
+    "covers": [ "TORSO" ],
+    "coverage": 75,
+    "encumbrance": 8,
+    "material_thickness": 20,
+    "use_action": {
+      "type": "holster",
+      "holster_prompt": "Stash ammo",
+      "holster_msg": "You stash your %s.",
+      "multi": 3,
+      "min_volume": "250 ml",
+      "max_volume": "500 ml",
+      "draw_cost": 60,
+      "flags": [ "MAG_COMPACT" ]
+    },
+    "flags": [ "WATER_FRIENDLY", "OUTER", "NO_REPAIR", "STURDY" ]
+   },
+   
    {
     "id": "eaglerhodesianvest",
     "type": "ARMOR",
     "name": "Eagle Industries Rhodesian Recon Vest (empty)",
-    "description": "The Eagle Industries Rhodesian Recon Vest is a combat proven vest used widely by US Army Special Forces war fighters. This one has no front plate or slot for a back plate.",
+    "description": "The Eagle Industries Rhodesian Recon Vest is a combat proven vest used widely by US Army Special Forces war fighters. This one has no front plate or pouch for a back plate or sides.",
     "weight": "907 g",
     "volume": "2000 ml",
     "looks_like": "vest",
@@ -58,9 +89,40 @@
       "draw_cost": 60,
       "flags": [ "MAG_COMPACT" ]
     },
-    "flags": [ "WATER_FRIENDLY", "WAIST" ]
+    "flags": [ "WATER_FRIENDLY", "OUTER" ]
    },
 
+   {
+    "id": "eaglerhodesianvest_esapi",
+    "type": "ARMOR",
+    "name": "Eagle Industries Rhodesian Recon Vest (ESAPI)",
+    "description": "The Eagle Industries Rhodesian Recon Vest is a combat proven vest used widely by US Army Special Forces war fighters. This one has a front ESAPI plate only.",
+    "weight": "3407 g",
+    "volume": "2000 ml",
+    "looks_like": "vest",
+    "price": 17995,
+    "price_postapoc": 80000,
+    "rigid": false,
+    "material": ["nylon", "ceramic"], 
+    "symbol": "[",
+    "color": "dark_gray",
+    "covers": [ "TORSO" ],
+    "coverage": 50,
+    "encumbrance": 6,
+    "material_thickness": 20,
+    "use_action": {
+      "type": "holster",
+      "holster_prompt": "Stash ammo",
+      "holster_msg": "You stash your %s.",
+      "multi": 10,
+      "min_volume": "250 ml",
+      "max_volume": "500 ml",
+      "draw_cost": 60,
+      "flags": [ "MAG_COMPACT" ]
+    },
+    "flags": [ "WATER_FRIENDLY", "OUTER", "NO_REPAIR", "STURDY" ]
+   },
+   
    {
     "id": "mayflowerlpac",
     "type": "ARMOR",
@@ -77,9 +139,9 @@
     "color": "dark_gray",
     "covers": [ "TORSO" ],
     "coverage": 75,
-    "encumbrance": 4,
+    "encumbrance": 2,
 	"storage": "1 L",
-    "material_thickness": 2,
+    "material_thickness": 6,
     "use_action": {
       "type": "holster",
       "holster_prompt": "Stash ammo",
@@ -90,6 +152,166 @@
       "draw_cost": 60,
       "flags": [ "MAG_COMPACT" ]
     },
-    "flags": [ "WATER_FRIENDLY", "WAIST" ]
+    "flags": [ "WATER_FRIENDLY", "OUTER" ]
+   },
+   
+   {
+    "id": "mayflowerlpac_esapi",
+    "type": "ARMOR",
+    "name": "Mayflower LPAC (ESAPI)",
+    "description": "The Mayflower Low-Profile Armor Carrier (LPAC) is designed to provide the wearer with a high degree of mobility while providing an acceptable amount of soft armor coverage, or both soft and hard armor coverage. This one has ESAPI plates.",
+    "weight": "5498 g",
+    "volume": "1250 ml",
+    "looks_like": "vest",
+    "price": 25500,
+    "price_postapoc": 80000,
+    "rigid": false,
+    "material": [ "kevlar", "nylon","ceramic" ],
+    "symbol": "[",
+    "color": "dark_gray",
+    "covers": [ "TORSO" ],
+    "coverage": 75,
+    "encumbrance": 10,
+	"storage": "1 L",
+    "material_thickness": 26,
+    "use_action": {
+      "type": "holster",
+      "holster_prompt": "Stash ammo",
+      "holster_msg": "You stash your %s.",
+      "multi": 4,
+      "min_volume": "250 ml",
+      "max_volume": "500 ml",
+      "draw_cost": 60,
+      "flags": [ "MAG_COMPACT" ]
+    },
+    "flags": [ "WATER_FRIENDLY", "OUTER", "NO_REPAIR", "STURDY" ]
+   },
+   
+   {
+    "id": "mayflowerapc",
+    "type": "ARMOR",
+    "name": "Mayflower APC (empty)",
+    "description": "The Assault Plate Carrier (APC) is designed to provide the wearer with a high degree of mobility while providing ample surface area for mounting mission essential pouches. The upper front of the APC contains an integral admin pouch with internal elastic loops to retain pens, pencils, chemlites or similar items. This one has no plates.",
+    "weight": "885 g",
+    "volume": "1500 ml",
+    "looks_like": "vest",
+    "price": 25500,
+    "price_postapoc": 80000,
+    "rigid": false,
+    "material": [ "nylon" ],
+    "symbol": "[",
+    "color": "dark_gray",
+    "covers": [ "TORSO" ],
+    "coverage": 85,
+    "encumbrance": 4,
+	"storage": "3 L",
+    "material_thickness": 2,
+    "use_action": {
+      "type": "holster",
+      "holster_prompt": "Stash ammo",
+      "holster_msg": "You stash your %s.",
+      "multi": 8,
+      "min_volume": "250 ml",
+      "max_volume": "500 ml",
+      "draw_cost": 60,
+      "flags": [ "MAG_COMPACT" ]
+    },
+    "flags": [ "WATER_FRIENDLY", "OUTER" ]
+   },
+   
+   {
+    "id": "mayflowerapc_esapi",
+    "type": "ARMOR",
+    "name": "Mayflower APC (ESAPI)",
+    "description": "The Assault Plate Carrier (APC) is designed to provide the wearer with a high degree of mobility while providing ample surface area for mounting mission essential pouches. The upper front of the APC contains an integral admin pouch with internal elastic loops to retain pens, pencils, chemlites or similar items. This one has ESAPI plates.",
+    "weight": "7885 g",
+    "volume": "1500 ml",
+    "looks_like": "vest",
+    "price": 25500,
+    "price_postapoc": 80000,
+    "rigid": false,
+    "material": [ "nylon", "ceramic" ],
+    "symbol": "[",
+    "color": "dark_gray",
+    "covers": [ "TORSO" ],
+    "coverage": 85,
+    "encumbrance": 10,
+	"storage": "3 L",
+    "material_thickness": 20,
+    "use_action": {
+      "type": "holster",
+      "holster_prompt": "Stash ammo",
+      "holster_msg": "You stash your %s.",
+      "multi": 8,
+      "min_volume": "250 ml",
+      "max_volume": "500 ml",
+      "draw_cost": 60,
+      "flags": [ "MAG_COMPACT" ]
+    },
+    "flags": [ "WATER_FRIENDLY", "OUTER", "NO_REPAIR", "STURDY" ]
+   },
+      
+   {
+    "id": "cryeavs",
+    "type": "ARMOR",
+    "name": "Crye AVS (empty)",
+    "description": " Introducing the AVS™ – a revolutionary system that quickly configures as anything from a low-vis rig to a fully armored load-bearing vest… and everything in between. This one has no plates.",
+    "weight": "910 g",
+    "volume": "1500 ml",
+    "looks_like": "vest",
+    "price": 25500,
+    "price_postapoc": 80000,
+    "rigid": false,
+    "material": [ "nylon" ],
+    "symbol": "[",
+    "color": "dark_gray",
+    "covers": [ "TORSO" ],
+    "coverage": 85,
+    "encumbrance": 4,
+	"storage": "2 L",
+    "material_thickness": 2,
+    "use_action": {
+      "type": "holster",
+      "holster_prompt": "Stash ammo",
+      "holster_msg": "You stash your %s.",
+      "multi": 10,
+      "min_volume": "250 ml",
+      "max_volume": "500 ml",
+      "draw_cost": 60,
+      "flags": [ "MAG_COMPACT" ]
+    },
+    "flags": [ "WATER_FRIENDLY", "OUTER" ]
+   },
+   
+   {
+    "id": "cryeavs_esapi",
+    "type": "ARMOR",
+    "name": "Crye AVS (ESAPI)",
+    "description": " Introducing the AVS™ – a revolutionary system that quickly configures as anything from a low-vis rig to a fully armored load-bearing vest… and everything in between. This one has ESAPI plates.",
+    "weight": "7910 g",
+    "volume": "1500 ml",
+    "looks_like": "vest",
+    "price": 25500,
+    "price_postapoc": 80000,
+    "rigid": false,
+    "material": [ "nylon" ],
+    "symbol": "[",
+    "color": "dark_gray",
+    "covers": [ "TORSO" ],
+    "coverage": 85,
+    "encumbrance": 10,
+	"storage": "2 L",
+    "material_thickness": 2,
+    "use_action": {
+      "type": "holster",
+      "holster_prompt": "Stash ammo",
+      "holster_msg": "You stash your %s.",
+      "multi": 10,
+      "min_volume": "250 ml",
+      "max_volume": "500 ml",
+      "draw_cost": 60,
+      "flags": [ "MAG_COMPACT" ]
+    },
+    "flags": [ "WATER_FRIENDLY", "OUTER", "NO_REPAIR", "STURDY" ]
    }
 ]
