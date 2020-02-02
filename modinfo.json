@@ -7,5 +7,10 @@
     "description": "Adds real military clothing, plate carriers, chest rigs, magazines, and other equipment",
     "category": "items",
     "dependencies": [ "dda" ]
+  },
+  
+  {
+    "type": "ITEM_BLACKLIST",
+    "items": [ "ballistic_vest_esapi" ]
   }
-]
+ ]
