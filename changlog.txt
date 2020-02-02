@@ -1,7 +1,10 @@
 .1
-  Added Crye JPC (empty)
+  Added Crye JPC (empty).
 .2
-  Added Eagle Industries Rhodesian Recon Vest (empty)
+  Added Eagle Industries Rhodesian Recon Vest (empty).
 .3
   Added Mayflower LPAC, Mayflower APC, Crye AVS, as well as ESAPI versions of all carriers.
   Replaced ballistics vest spawns on soldier zombies with equally weighted plate carriers
+.4
+  Added recipes so plate carriers can be filled with plates and disassembled to recover plates.
+  Added mod plate carriers to some dead soldier spawn that called for the vanilla ballistics vest

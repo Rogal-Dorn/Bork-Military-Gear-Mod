@@ -1,0 +1,30 @@
+[
+ {
+    "id": "clothing_soldier_set",
+    "type": "item_group",
+    "subtype": "collection",
+    "//": "Standard (non-winter) set of clothes and combat gear worn by soldiers and paramilitary forces.",
+    "items": [
+      { "group": "plate_carriers" }
+	]
+ },
+
+ {
+    "id": "clothing_soldier_winter",
+    "type": "item_group",
+    "subtype": "collection",
+    "//": "Standard (non-winter) set of clothes and combat gear worn by soldiers and paramilitary forces.",
+    "items": [
+      { "group": "plate_carriers" }
+	]
+ },
+ {
+    "id": "mil_base_clothes_corpse_soldier",
+    "type": "item_group",
+    "//": "Soldier clothes, without gear.",
+    "subtype": "collection",
+    "items": [
+      { "group": "plate_carriers", "prob": 10 }
+	]	
+ }
+]

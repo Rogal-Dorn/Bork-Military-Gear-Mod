@@ -1,0 +1,67 @@
+[
+ {
+    "result": "cryejpc_esapi",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_TORSO",
+    "skill_used": "tailor",
+    "time": "2 m",
+    "reversible": true,
+    "decomp_learn": 0,
+    "autolearn": true,
+    "components": [ [ [ "cryejpc", 1 ] ], [ [ "esapi_plate", 2 ] ] ],
+    "flags": [ "BLIND_EASY" ]
+  },
+  {
+    "result": "eaglerhodesianvest_esapi",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_TORSO",
+    "skill_used": "tailor",
+    "time": "2 m",
+    "reversible": true,
+    "decomp_learn": 0,
+    "autolearn": true,
+    "components": [ [ [ "eaglerhodesianvest", 1 ] ], [ [ "esapi_plate", 1 ] ] ],
+    "flags": [ "BLIND_EASY" ]
+  },
+  {
+    "result": "mayflowerlpac_esapi",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_TORSO",
+    "skill_used": "tailor",
+    "time": "2 m",
+    "reversible": true,
+    "decomp_learn": 0,
+    "autolearn": true,
+    "components": [ [ [ "mayflowerlpac", 1 ] ], [ [ "esapi_plate", 2 ] ], [ [ "esbi_plate", 2 ] ] ],
+    "flags": [ "BLIND_EASY" ]
+  },
+  {
+    "result": "mayflowerapc_esapi",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_TORSO",
+    "skill_used": "tailor",
+    "time": "2 m",
+    "reversible": true,
+    "decomp_learn": 0,
+    "autolearn": true,
+    "components": [ [ [ "mayflowerapc", 1 ] ], [ [ "esapi_plate", 2 ] ], [ [ "esbi_plate", 2 ] ] ],
+    "flags": [ "BLIND_EASY" ]
+  },
+  {
+    "result": "cryeavs_esapi",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_TORSO",
+    "skill_used": "tailor",
+    "time": "2 m",
+    "reversible": true,
+    "decomp_learn": 0,
+    "autolearn": true,
+    "components": [ [ [ "cryeavs", 1 ] ], [ [ "esapi_plate", 2 ] ], [ [ "esbi_plate", 2 ] ] ],
+    "flags": [ "BLIND_EASY" ]
+  }  
+]

@@ -1,0 +1,10 @@
+[
+ {
+  "type": "item_group",
+  "id": "plate_carriers",
+  "subtype": "distribution",
+   "items":[
+    "cryejpc_esapi", "eaglerhodesianvest_esapi", "mayflowerlpac_esapi", "mayflowerapc_esapi", "cryeavs_esapi"
+	]
+ }
+]
