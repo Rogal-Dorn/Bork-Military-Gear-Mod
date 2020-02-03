@@ -1,0 +1,23 @@
+[
+  {
+    "type": "COMESTIBLE",
+    "id": "crackers",
+    "name": "cracker",
+    "weight": "56 g",
+    "color": "brown",
+    "spoils_in": "90 days",
+    "container": "box_small",
+    "comestible_type": "FOOD",
+    "symbol": "%",
+    "quench": -4,
+    "calories": 280,
+    "description": "Dry and salty, these crackers will leave you quite thirsty.",
+    "price": 110,
+    "material": "wheat",
+    "volume": "1 L",
+    "flags": [ "EDIBLE_FROZEN" ],
+    "charges": 8,
+    "vitamins": [ [ "calcium", 5 ], [ "iron", 12 ] ],
+    "fun": 2
+  }
+ ]
